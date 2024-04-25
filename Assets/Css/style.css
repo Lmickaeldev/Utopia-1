@@ -2,6 +2,7 @@
     font-family: 'Comfortaa', cursive;
 }
 body{
+    background-color: #000 !important;
     background: url('../img/videoplayback.gif') no-repeat center center fixed;
 }
 a{

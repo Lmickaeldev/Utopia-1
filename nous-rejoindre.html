@@ -115,6 +115,9 @@
             
         </div>
 
+
+
+        </div>
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -147,15 +150,13 @@
             });
         </script>
         <script>
-            const myModal = document.getElementById('myModal')
-                const myInput = document.getElementById('myInput')
+            const myModal = document.getElementById('exampleModal');
+            const myInput = document.getElementById('myInput');
 
-                myModal.addEventListener('shown.bs.modal', () => {
-                    myInput.focus()
-                })
+            myModal.addEventListener('shown.bs.modal', () => {
+                myInput.focus();
+            });
         </script>
-
-        </div>
 
         
     <footer>
