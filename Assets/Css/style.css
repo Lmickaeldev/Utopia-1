@@ -1,0 +1,188 @@
+*{
+    font-family: 'Comfortaa', cursive;
+}
+body{
+    background: url('../img/videoplayback.gif') no-repeat center center fixed;
+}
+a{
+    text-decoration: none !important;
+    color: #fff;
+}
+hr{
+    border: 1px solid #f0e006;
+}
+h2{
+    text-decoration: underline #f0e006;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.navbar-brand{
+    color: #fff !important;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    text-transform: uppercase;
+}
+.navbar-nav li a:hover {
+    color: rgba(197, 97, 5) !important;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #f0e006, 0 0 10px #f0e006, 0 0 15px #f0e006, 0 0 20px #f0e006, 0 0 30px #f0e006, 0 0 50px #f0e006, 0 0 60px #f0e006;
+}
+.utopia{
+    font-weight: bold;
+    color: rgba(197, 97, 5);
+    text-shadow: 0 0 5px #f0e006, 0 0 10px #f0e006, 0 0 15px #f0e006, 0 0 20px #f0e006, 0 0 30px #f0e006, 0 0 50px #f0e006, 0 0 60px #f0e006;
+}
+.utopia2 {
+    font-weight: bold;
+    color: rgba(197, 97, 5);
+    color: #fff !important;
+    font-weight: bold;
+}
+.utopia3 {
+    font-weight: bold;
+    color: #fff!important;
+    font-weight: bold;
+    backdrop-filter: blur(10px);
+}
+
+.intro{
+    background-image: url('../img/intro.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(197, 97, 5) !important;
+    text-shadow: 0 0 5px #f0e006, 0 0 10px #f0e006, 0 0 15px #f0e006, 0 0 20px #f0e006, 0 0 30px #f0e006, 0 0 50px #f0e006, 0 0 60px #f0e006;   
+}
+.content-card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+.content-card:hover{
+    background-color: #f0e006 !important;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #c56105 !important;
+    padding: 20px;
+    margin: 20px;
+}
+.content-card{
+    object-fit: cover;
+    filter: grayscale(100%)!important;
+    transition: 0.5s ease-out;
+}
+.content-card:hover{
+    filter: grayscale(0%)!important;
+    transform: scale(1.1);
+}
+.card p{
+    display: none;
+}
+.card:hover p {
+    transition: 0.5s ease-out;
+    display: block;
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    right: 20px;
+}
+/* reglement */
+.rules p,li,h2,h3,h4,h5,h6{
+    color: #fff !important;
+}
+.rules h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.rules h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline #c56105;
+}
+.rules h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline #c56105;
+}
+.rules h5{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline #c56105;
+}
+.rules ul{
+    list-style-type: none;
+}
+.accordion-header{
+    text-decoration: none;
+    text-transform: none;
+    background-color: #c56105;
+    color: #fff!important;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.accordion-item{
+    
+    border: none !important;;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.accordion-flush>.accordion-item>.accordion-header .accordion-button,
+.accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed{
+    background: #000 !;
+    color: #fff!important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.close{
+    background-color: #c56105 !important;
+    color: #fff!important;
+    width: 350px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.about{ 
+    font-weight: bold;
+    color: #fff !important;
+    font-weight: bold;
+    backdrop-filter: blur(10px);   
+}
+.about h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.join {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff !important;
+    font-weight: bold;
+    backdrop-filter: blur(10px);
+}
